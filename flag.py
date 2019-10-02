@@ -6,7 +6,7 @@ pygame.init()
 size = width, height = 800, 600
 # screen — холст, на котором нужно рисовать:
 screen = pygame.display.set_mode(size)
-screen.fill((255, 255, 255))
+screen.fill(pygame.Color('gray'))
 # формирование кадра:
 # команды рисования на холсте
 # Рисуем древко
